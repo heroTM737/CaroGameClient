@@ -1,0 +1,32 @@
+.chat {
+    width: 300px;
+    height: 100%;
+}
+
+.chat form input {
+  border: none;
+  box-sizing: content-box;
+  height: 25px;
+  padding: 5px;
+}
+
+.chat form input[type=text] {
+  background: #bdbdc5;
+  background: white;
+  width: 250px;
+}
+
+.chat form input[type=submit] {
+  background: #01b1e2;
+  color: white;
+  cursor: pointer;
+  width: 30px;
+}
+
+.chat .contentholder {
+    height: calc(100% - 35px);
+}
+
+.chat .formholder {
+    height: 35px;
+}

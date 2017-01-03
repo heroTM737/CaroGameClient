@@ -1,0 +1,37 @@
+.container {
+  width: 600px;
+  background: #61505a;
+  margin: 0 auto;
+  margin-top: calc(50vh - 30px);
+  border-radius: 5px;
+  text-align: center;
+  padding: 0 10px 10px 10px;
+}
+.container .title {
+  font-size: 28px;
+  padding: 15px 0;
+}
+.container form .row {
+  padding: 5px;
+}
+.container form input {
+  border: none;
+  width: 200px;
+  box-sizing: content-box;
+  height: 25px;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+.container form input[type=text] {
+  background: #bdbdc5;
+  background: white;
+}
+.container form input[type=submit] {
+  background: #01b1e2;
+  color: white;
+  cursor: pointer;
+}
+.container form input[type=submit]:hover {
+  background: blue;
+}

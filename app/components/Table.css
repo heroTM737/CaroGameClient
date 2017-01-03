@@ -1,0 +1,48 @@
+.table {
+  padding: 10px 0 0 0;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.cell {
+  width: 25px;
+  height: 25px;
+  background: white;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+.cell:hover {
+  background: blue;
+    color: white;
+}
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.doubleview {
+  display: flex;
+  justify-content: flex-end;
+  height: calc(100vh - 30px);
+}
+
+.doubleview .doubleviewleft {
+  display: flex;
+  justify-content: center;
+  width: calc(100% - 300px);
+  border-right: 1px solid white;
+}
+
+.doubleview .doubleviewright {
+  width: 300px;
+}

@@ -1,0 +1,19 @@
+.userbar {
+  background: #61505a;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  line-height: 30px;
+  padding: 0 5px;
+}
+
+.userbar .signout {
+  padding: 5px 10px;
+  color: white;
+  float: right;
+  line-height: 20px;
+}
+
+.userbar .signout:hover {
+  background: blue;
+}
